@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 5px solid lightblue;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightcyan;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .container {
+    background-color: skyblue;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid darkslateblue;
+    border-radius: 10px;
+    
+  }
+  .hotel-info {
+    background-color: #cce6ff;
+    box-shadow: 1px 10px 46px -13px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 10px 46px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 10px 46px -13px rgba(0,0,0,0.75);
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  
+  .image {
+    height: 200px;
+    width: 400px;
+  }
+
+  .stars span {
+    color:yellow;
+    font-size: 20px;
+  }
+  .description {
+    background-color: lightblue;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  .descript {
+    background-color: lightblue;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
