@@ -1,6 +1,23 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 10px solid #b3cccc;
+  }
 body {
     margin: 1rem;
+    background-color: #c2d6d6;
 }
-#title {
-    text-align: center;
-}
+
+  .container {
+    background-color: #d1e0e0;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid darkslateblue;
+    border-radius: 10px;
+    
+  }
+  .hotel {
+    background-color: #f0f5f5;
+    box-shadow: -12px 10px 20px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -12px 10px 20px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -12px 10px 20px -10px rgba(0,0,0,0.75);;
+  }

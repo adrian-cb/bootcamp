@@ -4,29 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="hotel.css">
-    <title>Document</title>
+    <title>Configuración de hotel</title>
 </head>
 <body>
-<label for="habitacion">Eliga el tipo de Habitación</label>
-<select id="inputTipo">
-    <option value="standard" id="standard" selected>Standard</option>
-    <option value="junior" id="junior" >Junior Suite</option>
-    <option value="suite" id="suite">Suite</option>
-</select>
+    <h1>Configuración Hotel</h1>
+<div class="container hotel">
+
+    <label for="habitacion">Eliga el tipo de Habitación</label>
+    <select id="inputTipo">
+        <option value="standard" id="standard" selected>Standard</option>
+        <option value="junior" id="junior" >Junior Suite</option>
+        <option value="suite" id="suite">Suite</option>
+    </select>
     <label for="Spa">Marque si desea Spa</label>
         <input type="checkbox" name="Spa" id="Spa">
-<label for="ocupacion">Ocupación de la Habitación</label>
-<select id="inputOcupacion">
-    <option value="individual" id="individual" >Individual</option>
-    <option value="doble" id="doble" selected>Doble</option>
-    <option value="triple" id="triple">Triple</option>
-  </select>
+    <label for="ocupacion">Ocupación de la Habitación</label>
+        <select id="inputOcupacion">
+            <option value="individual" id="individual" >Individual</option>
+            <option value="doble" id="doble" selected>Doble</option>
+            <option value="triple" id="triple">Triple</option>
+        </select>
     <label for="noche">Número de noches</label>
         <input type="number" id="inputNoches">
     <label for="parking">Noches de Parking</label>
         <input type="number" id="inputNochesParking">
   <button id="calcular">Calcular</button>
   <h3 id="total"></h3>
+</div>
     <script src="hotel.js"></script>
 </body>
 </html>

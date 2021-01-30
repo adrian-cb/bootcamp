@@ -1,4 +1,3 @@
-// obtener los datos que ha rellenado el usuario...
 
 function getDatos() {
     const nochesParking = parseInt(document.getElementById("inputNochesParking").value);
@@ -15,7 +14,6 @@ function getDatos() {
         ocupacion: ocupacion,
     }
 }
-
 function getPrecioPorTipo(tipo){
     let resultado;
     switch (tipo){
@@ -48,7 +46,6 @@ function getOcupacion(ocupacion){
 
     return resultado;
 }
-
 function calcular () {
     const datos = getDatos();
 
@@ -60,13 +57,10 @@ function calcular () {
     }
 
     let totalPorTipo = getPrecioPorTipo(datos.tipo)+ totalSpa ;
-console.log("total por tipo",totalPorTipo);
 
     let totalNoches = totalPorTipo * getOcupacion(datos.ocupacion);
-console.log("total noches",totalNoches);
 
     let totalPrice = totalNoches * datos.numeroNoches;
-console.log("total ocupacion",totalPrice);
     
     const total = totalParking + totalPrice ;
     document.getElementById("total").innerText = total;
