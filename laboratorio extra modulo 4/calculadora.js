@@ -19,9 +19,11 @@ document.getElementById("sum").addEventListener("click", sum);
 document.getElementById("rest").addEventListener("click", rest);
 document.getElementById("multiply").addEventListener("click", multiply);
 document.getElementById("divide").addEventListener("click", divide);
+// limpia el input
 document.getElementById("sum").addEventListener("click", clearInput);
 document.getElementById("rest").addEventListener("click", clearInput);
 document.getElementById("multiply").addEventListener("click", clearInput);
 document.getElementById("divide").addEventListener("click", clearInput);
+//muestra resultado
 document.getElementById("calculate").addEventListener("click", calculate);
 
